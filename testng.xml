@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite" parallel="tests" thread-count="6">
+    <test name="FirstTest">
+        <classes>
+            <class name = "tests.RegisterTest"/>
+        </classes>
+    </test>
+    <test name="SecondTest">
+        <classes>
+            <class name = "tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="ThirdTest">
+        <classes>
+            <class name = "tests.ChangePasswordTest"/>
+        </classes>
+    </test>
+    <test name="FourthTest">
+        <classes>
+            <class name = "tests.NavigationAndFilterTest"/>
+        </classes>
+    </test>
+    <test name="FifthTest">
+        <classes>
+            <class name = "tests.SearchAndAddTest"/>
+        </classes>
+    </test>
+    <test name="SixthTest">
+        <classes>
+            <class name = "tests.ClearBasketTest"/>
+        </classes>
+    </test>
+</suite>
