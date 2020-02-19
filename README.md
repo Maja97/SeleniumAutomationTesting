@@ -25,11 +25,11 @@ This project uses cross browser testing, WebDriverManager, POM (Page Object Mode
 - a design pattern which is commonly used in Selenium for Automating the Test Cases. It acts as an interface for the page of your Application. While Automating the test cases, we create the object of Page Classes and interact with web elements by calling the methods of these classes in the tests.
 
 Advantages: 
-1. code is clean and easy to understand by keeping tests and element locators separated
-2. makes test automation framework programmer friendly, more durable and comprehensive
+1. Code is clean and easy to understand by keeping tests and element locators separated
+2. Makes test automation framework programmer friendly, more durable and comprehensive
 3. Page Object Repository is Independent from Automation Tests
-4. test cases are short and optimized as we are able to reuse page object methods in the POM classes
-5. any change in UI can easily be implemented, updated and maintained into the Page Objects and Classes
+4. Test cases are short and optimized as we are able to reuse page object methods in the POM classes
+5. Any change in UI can easily be implemented, updated and maintained into the Page Objects and Classes
 
 ### Screenshot
 
@@ -44,7 +44,7 @@ After you select the browser, you can run the tests.
 
 | Class name| Description|
 | ----------|:----------:|
-| RegisterTest| This test uses a permanent mail copied from another website, along with other required information in order to register a new user to the website|
+| RegisterTest| This test uses a temporary mail copied from another website, along with other required information in order to register a new user to the website|
 | LoginTest| This test is used to log in a user who already has an account in the website. The mail can be taken from a previously successful RegisterTest, i.e. the clipboard|
 | ChangePasswordTest| This test uses a part of the LoginTest in the way that the user is logged in and then his password is changed.|
 | NavigationAndFilterTest| The navigation and filter test is used to test searching for a category in a webshop using the drop-down list containing item categories and after selecting a category, filtering the items in order to find one specific item and adding it to the cart|
