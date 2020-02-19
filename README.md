@@ -21,7 +21,7 @@ After installing the neccessary programs, clone this repository on your computer
 This project uses cross browser testing, WebDriverManager, POM (Page Object Model), Screenshots, PageFactory, Wait, Assert...
 
 ### Page Object Model
----
+
 - a design pattern which is commonly used in Selenium for Automating the Test Cases. It acts as an interface for the page of your Application. While Automating the test cases, we create the object of Page Classes and interact with web elements by calling the methods of these classes in the tests.
 
 Advantages: 
@@ -32,7 +32,7 @@ Advantages:
 5. any change in UI can easily be implemented, updated and maintained into the Page Objects and Classes
 
 ### Screenshot
----
+
 A screenshot is taken after a failed test and it can be found in the D:\Selenium logs\ file. If you wish to change the screenshot folder, go to the **Screenshot** class in IntelliJ and change it based on your preferences.
 
 ### WebDriverManager and cross browser testing
